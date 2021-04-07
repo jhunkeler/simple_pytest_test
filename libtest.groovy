@@ -13,6 +13,10 @@ bc0 = new BuildConfig()
 bc0.nodetype = "RHEL-7"
 bc0.name = "libtest"
 bc0.build_cmds = ["true"]
+bc0.conda_ver = '4.9.2'
+bc0.conda_packages = [
+    "python=3.7",
+]
 bc0.test_cmds = ["pip install pytest",
                  "pytest tests --basetemp=tests_output --junitxml results.xml --remote-data tests/"]
 bc0.failedUnstableThresh = 1
