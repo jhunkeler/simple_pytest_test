@@ -17,7 +17,7 @@ bc0.conda_ver = '4.9.2'
 bc0.conda_packages = [
     "python=3.7",
 ]
-bc0.test_cmds = ["pip install pytest-does-not-exist",
+bc0.test_cmds = ["pip install pytest",
                  "pytest tests --basetemp=tests_output --junitxml results.xml"]
 bc0.failedUnstableThresh = 1
 bc0.failedFailureThresh = 6
