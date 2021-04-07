@@ -18,7 +18,7 @@ bc0.conda_packages = [
     "python=3.7",
 ]
 bc0.test_cmds = ["pip install pytest",
-                 "pytest tests --basetemp=tests_output --junitxml results.xml --remote-data tests/"]
+                 "pytest tests --basetemp=tests_output --junitxml results.xml"]
 bc0.failedUnstableThresh = 1
 bc0.failedFailureThresh = 6
 
