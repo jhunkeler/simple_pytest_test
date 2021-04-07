@@ -10,7 +10,7 @@ jobconfig.post_test_summary = true
 
 // Define each build configuration, copying and overriding values as necessary.
 bc0 = new BuildConfig()
-bc0.nodetype = "linux-stable"
+bc0.nodetype = "RHEL-7"
 bc0.name = "libtest"
 bc0.build_cmds = ["true"]
 bc0.test_cmds = ["pip install pytest",
